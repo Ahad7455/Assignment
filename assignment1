@@ -1,0 +1,72 @@
+Q1:- For loop is used when the number of iterations is already known. While loop is used when the number of iterations is already Unknown
+
+for loop example
+n = [1, 2, 3]  # Initialization
+for i in n:  # Condition and Updation
+    print(i)
+
+while loop example
+i = 1  # Initialization
+while i < 6:  # Condition
+    print(i)
+    i += 1  # Updation
+--------------------------------------------------------
+
+Q2:- n=[1,2,3,4,5,6,7,8,9,10]
+r=0
+p=1
+for i in n:
+    r=r+i
+    p=p*i
+
+print(r)
+print(p)
+t=0
+sum=0
+p1=1
+while t<10:
+    t=t+1
+    sum=sum+t
+    p1=p1*t
+print(sum)
+print(p1)
+
+--------------------------------------------------------
+Q3:- 
+units=int(input("enter the value"))
+if units <= 100:
+    print(4.5*units)
+elif units > 100 and units <= 200:
+    x=units-100
+    print(4.5*100+ x*6)
+elif units >200 and units <= 300:
+    y=units-200
+    print(4.5*100+100*6+y*10)
+elif units >300:
+    z=units-300
+    print(4.5*100+6*100+10*100+20*z)
+else:
+    print("Invalid input")
+--------------------------------------------------------Q4:-
+l=[]
+for i in range(101):
+    print(i)
+    if ((i*i*i)%4)==0 or ((i*i*i)%5)==0:
+        l.append(i*i*i)
+
+print(l)
+
+-------------------------------------------------------
+Q5:-
+string = "I want to become a data scientist"
+a=(string.count('a'))
+e=(string.count('e'))
+i=(string.count('i'))
+o=(string.count('o'))
+u=(string.count('u'))
+print("a", a)
+print('e=', e)
+print('i=', i)
+print('o=', o)
+print('u=',u)
+
